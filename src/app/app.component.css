@@ -1,0 +1,41 @@
+body {
+    background-color: #DAE0E2;
+    margin: 0;
+}
+
+header {
+    background-color: #EA7773;
+    color: whitesmoke;
+    padding: 1em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+header ul li{
+    padding: 0.5em;
+    font-size: large;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}

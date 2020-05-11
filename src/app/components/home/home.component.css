@@ -1,0 +1,25 @@
+.play-container {
+    margin: 50px auto;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    margin: 3px;
+    padding: 6px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 15%;
+}
+
+.active {
+    border-color: tomato;
+}
+
+.display {
+    color: red;
+}
+
+.dontdisplay {
+    display: none;
+}

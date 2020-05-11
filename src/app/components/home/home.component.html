@@ -1,0 +1,20 @@
+<h2>Practice Area</h2>
+
+<br>
+
+<div class="play-container">
+    <p>You have clicked <button (click)="countClick()"> this </button> {{ count }} times</p>
+</div>
+
+<br>
+
+<div class="play-container">
+    <p [ngClass]="setClasses()">Limit of 7 characters exceeded</p>
+    <p>     
+        <input type="text" placeholder="Enter text" [(ngModel)]="name" [class.active]="name.length > 7">
+        
+        <br><br> 
+        
+        <strong>You said:</strong> {{ name }}
+    </p>
+</div>
